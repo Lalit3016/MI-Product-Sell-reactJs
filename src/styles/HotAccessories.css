@@ -1,0 +1,34 @@
+ .Hot{
+/* position: absolute; */
+ display: flex;
+ width: 90vw;
+   height: 50vw;
+          
+ margin: auto;
+  /* justify-content: center;
+  align-items: center; */
+ 
+ }
+ .Hot > div :first-child > img {
+     cursor: pointer;
+     transition: all 0.5s;
+     /* width: 22vw; */
+
+     /* height: 50%; */
+ }
+  .hihi{
+    width: 270px;
+    height: 84%;
+  }
+ .Hot > div :first-child > img:hover {
+     transform: translateY(-0.4vmax);
+     box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+
+ } 
+
+ .Hot  >div:last-child {
+     display: flex;
+     /* width: 220vw; */
+
+     flex-wrap: wrap;
+ }

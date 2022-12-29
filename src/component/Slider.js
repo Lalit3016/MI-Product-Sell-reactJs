@@ -1,0 +1,26 @@
+import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+function Slider({ start }) {
+    return (
+
+        <Carousel fade>
+            {start.map((item) => (
+
+                <Carousel.Item interval={3000}>
+                    <img
+                        className="d-block w-100"
+                        src={item}
+                        alt="slide"
+                    />
+                </Carousel.Item>
+            ))}
+        </Carousel>
+    );
+    //     }
+
+    //     export default UncontrolledExample;
+    //   )
+}
+
+export default Slider

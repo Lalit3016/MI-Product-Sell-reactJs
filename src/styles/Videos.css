@@ -1,0 +1,7 @@
+.videos{
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    /* background-image: url(); */
+}
